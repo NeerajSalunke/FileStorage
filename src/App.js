@@ -4,7 +4,7 @@ import Web3 from 'web3';
 import Body from './Body';
 import Navbar from './Navbar';
 import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css"; 
 
 const ipfsClient = require('ipfs-http-client')
 const ipfs = ipfsClient.create({host:'ipfs.infura.io',port:5001,protocol:'https'})
@@ -68,7 +68,7 @@ function App() {
       for(var i=filescount;i>=1;i--)
       {
         const file = await filestorage.methods.files(i).call();
-        
+
       }
       
       // const candidate1 = await election.methods.candidates(1).call(); //here we are calling candidates mapping from our smart contract
