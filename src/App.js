@@ -4,6 +4,7 @@ import Web3 from 'web3';
 import Body from './Body';
 import Navbar from './Navbar';
 import './App.css';
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const ipfsClient = require('ipfs-http-client')
